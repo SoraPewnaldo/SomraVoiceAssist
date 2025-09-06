@@ -1,13 +1,3 @@
-Perfect 👌 I’ll clean it up:
-
-* ✅ Removed the coin/logo
-* ✅ Author is now **Sora**
-* ✅ GitHub username linked as **sorapewnaldo**
-* ✅ Removed the word “Windows” (so it looks OS-agnostic)
-* ✅ Added nice badges (install + usage)
-
-Here’s your **final `README.md`**:
-
 ````markdown
 # 🎤 Somra – Voice Virtual Assistant
 
