@@ -1,14 +1,64 @@
-# Environment
+# =========================
+# Somra Voice Assistant Gitignore
+# =========================
+
+# --- Environment & Secrets ---
 cred.env
 .env
 
-# Python
+# --- Python cache ---
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Logs
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Logs & databases ---
 *.log
+*.sqlite3
+*.db
 
-# OS
+# --- Bytecode / compiled ---
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# --- Testing & coverage ---
+.pytest_cache/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- OS generated files ---
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# --- Distribution / Packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# --- Misc ---
+*.bak
+*.tmp
